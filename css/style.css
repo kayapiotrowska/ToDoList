@@ -1,0 +1,141 @@
+/*---------------------------------------
+  MediaScreen sizes
+
+// Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+
+
+-----------------------------------------*/
+
+
+
+
+
+/*---------------------------------------
+    body
+-----------------------------------------*/
+
+body {
+position: relative;
+}
+
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+html {
+  font-size: 100%;
+}
+
+.container {
+width:100%;
+}
+
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle !important;
+  float: none;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto !important;
+  }
+
+  .rem{
+    background-color: #ffd1dc;
+    margin: 5px 10px;
+    height: 30px;
+    width:30px;
+    font-size: 15px;
+    text-align: center;
+    align-content: center;
+    border-radius: 15px;
+  }
+
+  i{
+    padding: 0px;
+    margin: 0px;
+  }
+
+/*---------------------------------------
+    Typography
+-----------------------------------------*/
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+  }
+
+h1{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 300%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin:30px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 150%;
+}
+
+li {
+  font-size: 120%;
+  margin: 5px 0px 0px 0px;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  padding: 0;
+  line-height:80%;
+}
+
+
+/*---------------------------------------
+    Background
+-----------------------------------------*/
+
+.background{
+    position: relative;
+    left:0;
+    top:0;
+    height: 100vh;
+    width:100%;
+    margin:0;
+    padding:0;
+   
+    background-size: cover;
+    background-color: #ffd1dc;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*---------------------------------------
+    Container
+-----------------------------------------*/
+
+.container{
+    position: relative;
+    background-color: rgba(255,255,255,0.7);
+    width:80%;
+    height: 80vh;
+    top:10vh;
+    margin: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
